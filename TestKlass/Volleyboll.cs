@@ -8,6 +8,7 @@ namespace TestKlass
         public int teamSpot {get;set;}
         public bool relegation{get;set;}
         public bool promotion{get;set;}
+        public bool hello {get;set;}
     }
     public class Team
     {
