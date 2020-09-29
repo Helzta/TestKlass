@@ -18,15 +18,15 @@ namespace TestKlass
     public class players
     {
         public string pName{get;set;}
-        public float overall{get;set;}
+        public int overall{get;set;}
         public int height{get;set;}
         public int weight{get;set;}
-        public float spike{get;set;}
-        public float block{get;set;}
-        public float dig{get;set;}
-        public float serve{get;set;}
-        public float reaction{get;set;}
-        public float vertical{get;set;}
-        public float toss{get;set;}
+        public int spike{get;set;}
+        public int block{get;set;}
+        public int dig{get;set;}
+        public int serve{get;set;}
+        public int reaction{get;set;}
+        public int vertical{get;set;}
+        public int toss{get;set;}
     }
 }
