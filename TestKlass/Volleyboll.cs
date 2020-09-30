@@ -22,12 +22,36 @@ namespace TestKlass
         public int overall{get;set;}
         public int height{get;set;}
         public int weight{get;set;}
-        public int spike{get;set;}
-        public int block{get;set;}
-        public int dig{get;set;}
-        public int serve{get;set;}
+        public string prefArm{get;set;}
+        public int age {get;set;}
+        public int schoolYear{get;set;}
+        public int birthday{get;set;}
+        public int marking {get;set;}
+        public int blocking {get;set;}
+        public int reading {get;set;}
+        public int dig {get;set;}
+        public int timing {get;set;}
+        public int controll {get;set;}
+        public int faking{get;set;}
+        public int aggro{get;set;}
         public int reaction{get;set;}
-        public int vertical{get;set;}
-        public int toss{get;set;}
+        public int atkPosition{get;set;}
+        public int defPosition{get;set;}
+        public int vision{get;set;}
+        public int coolness{get;set;}
+        public int toss {get;set;}
+        public int underArm {get;set;}
+        public int overArm {get;set;}
+        public int acceleration {get;set;}
+        public int stamina {get;set;}
+        public int balance {get;set;}
+        public int maxSpeed {get;set;}
+        public int mobility {get;set;}
+        public int elasticity {get;set;}
+        public int power {get;set;}
+        public int aim {get;set;}
+        public int curve {get;set;}
+        public int serve {get;set;}
+        public int directly {get;set;}
     }
 }

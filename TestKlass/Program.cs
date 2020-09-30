@@ -12,7 +12,7 @@ namespace TestKlass
             while(!isValid)
             {
                 Console.Clear();
-                DateTime dt = new DateTime(2020, 12, 1);
+                DateTime dt = new DateTime(2020, 6, 1);
                 DateTime dt1 = dt.AddDays(plusDays);
                 Console.WriteLine(dt1.ToString("D"));
                 Console.WriteLine("\n1. Simulate            2. News\n" +
@@ -68,6 +68,7 @@ namespace TestKlass
                         break;
 
                         case "4":
+                            Console.Clear();
                             Console.WriteLine("What?");
                             Console.ReadLine();
 
