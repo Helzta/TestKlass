@@ -32,6 +32,7 @@ namespace TestKlass
                     case "2":
                         Console.Clear();
                         Console.WriteLine("Yeah this will have to wait, they only 14-18");
+                        Console.ReadLine();
 
                         break;
                     
