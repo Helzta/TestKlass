@@ -1,9 +1,15 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.IO;
+using System;
+using Raylib_cs;
 
 namespace TestKlass
 {
     class Program
     {
+        static Random generator = new Random();
+        static players[] cPs = new players[900];
+        public static List<retired> rPs = new List<retired>();
         static int plusDays = 0;
         //static bool isSwitch = false;
         static void printHubMenu()

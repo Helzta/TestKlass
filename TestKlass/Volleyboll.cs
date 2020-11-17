@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System;
 
 namespace TestKlass
@@ -16,7 +17,7 @@ namespace TestKlass
         public int players{get;set;}
         
     }
-    public class players
+    /*public class players
     {
         public string pName{get;set;}
         public int overall{get;set;}
@@ -54,4 +55,43 @@ namespace TestKlass
         public int serve {get;set;}
         public int directly {get;set;}
     }
+    
+    public class retired
+    {
+        public string rName{get;set;}
+        public int rOverall{get;set;}
+        public int rHeight{get;set;}
+        public int rWeight{get;set;}
+        public string rPrefArm{get;set;}
+        public int rAge {get;set;}
+        public int graduationYear{get;set;}
+        public int rBirthday{get;set;}
+        public int rMarking {get;set;}
+        public int rBlocking {get;set;}
+        public int rReading {get;set;}
+        public int rDig {get;set;}
+        public int rTiming {get;set;}
+        public int rControll {get;set;}
+        public int rFaking{get;set;}
+        public int rAggro{get;set;}
+        public int rReaction{get;set;}
+        public int rAtkPosition{get;set;}
+        public int rDefPosition{get;set;}
+        public int rVision{get;set;}
+        public int rCoolness{get;set;}
+        public int rToss {get;set;}
+        public int rUnderArm {get;set;}
+        public int rOverArm {get;set;}
+        public int rAcceleration {get;set;}
+        public int rStamina {get;set;}
+        public int rBalance {get;set;}
+        public int rMaxSpeed {get;set;}
+        public int rMobility {get;set;}
+        public int rElasticity {get;set;}
+        public int rPower {get;set;}
+        public int rAim {get;set;}
+        public int rCurve {get;set;}
+        public int rServe {get;set;}
+        public int rDirectly {get;set;}
+    }*/
 }
