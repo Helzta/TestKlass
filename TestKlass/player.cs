@@ -13,7 +13,6 @@ namespace TestKlass
         public string team = "";
         public float x = 0;
         public float y = 0;
-
         public player(string name, string number, float x, float y)
         {
             players.Add(this);
